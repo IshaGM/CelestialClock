@@ -1,7 +1,7 @@
 # CelestialClock
 A quick conceptual design project. Prompt: Design a Clock, whatever that means for you.
 
-![](Media/Hourly-Frames.psd)
+![](Media/Hourly-Frames.png)
 
 ![](Media/Contrapunta-Mundi02.gif)
 
