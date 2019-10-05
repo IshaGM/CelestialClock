@@ -1,9 +1,9 @@
 # CelestialClock
 A quick conceptual design project. Prompt: Design a Clock, whatever that means for you.
 
-![](Cosmic Clock - Hourly Frames.psd)
+![](Media/Hourly-Frames.psd)
 
-![](Contrapunta-Mundi02.gif)
+![](Media/Contrapunta-Mundi02.gif)
 
 My clock is a rectangle packing algorithm, which allows the user to define a number of cosmic cycles of their choice, along with their length in days. It then generates a packing in a manner such that the ratios of the areas of the rectangles are equal to the ratios of the lengths of the respective cycles. Therefore area becomes a dimension for representing the period of a cosmic cycle. Moreover, the packing algorithm is designed to create a radial structure in the clock.
 
@@ -13,6 +13,6 @@ The clock also has some interactive features. When you open the Processing appli
 
 A fundamental premise of this design was the separation of units from events, which is reflected in the design of the clock since the change in the speed of the cosmic cycles having no effect on the hue palette. This is solely linked to the time of day. However, by pressing ‘h’ and ‘g’ you can move forwards and backwards respectively through the hue palette of the clock in hourly increments. By pressing ‘z’, the current frame gets exported as a png. The image at the top is an arrangement of such frames taken of the clock at hourly increments, starting at midnight and going till 11pm. The first gif below is a visualization of cycle packings of increasing number. The second gif is a longer demonstration of the entire flow of interaction.
 
-![](Increasing-Cosmic-Cycles.gif)
+![](Media/Increasing-Cosmic-Cycles.gif)
 
-![](Contrapunta-Mundi01.gif)
+![](Media/Contrapunta-Mundi01.gif)
